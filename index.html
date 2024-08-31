@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextGen Analytics-Edu-Site</title>
+     <!-- icon -->
+     <link rel="stylesheet" href="./CSS/all.min.css">
+    <!--bootstrap  -->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <!-- css -->
+     <link rel="stylesheet" href="./CSS/style.css">
+     <!--responsive  -->
+     <link rel="stylesheet" href="./CSS/responsive.css">
+</head>
+<body>
+    
+    <!-- NAVBAR START -->
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#"><img src="./img/logo.ico" alt=""></a></div>
+            <nav class="nav-links">
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">Courses</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Machine Learning</a>
+                        <a href="#">Deep Learning</a>
+                        <a href="#">Statistics</a>
+                        <a href="#">Artificial Intelligence</a>
+                        <a href="#">Data Analysis</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">News & Blogs</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Study in Australia</a>
+                        <a href="#">Guide For Students</a>
+                        <a href="#">Visa Requirement</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">About</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Our Story</a>
+                        <a href="#">Team</a>
+                        <a href="#">Careers</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="nav-buttons">
+                <button class="login-btn">Login</button>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <button class="sidebar-toggle" onclick="toggleSidebar()"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()"><i class="fas fa-times"></i></button>
+        <div class="sidebar-logo">
+            <img src="./img/logo.ico" alt="Logo">
+        </div>
+        <nav class="sidebar-nav">
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">Courses</a>
+                <div class="dropdown-menu">
+                    <a href="#">Machine Learning</a>
+                    <a href="#">Deep Learning</a>
+                    <a href="#">Statistics</a>
+                    <a href="#">Artificial Intelligence</a>
+                    <a href="#">Data Analysis</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">News & Blogs</a>
+                <div class="dropdown-menu">
+                    <a href="#">Study in Australia</a>
+                    <a href="#">Guide For Students</a>
+                    <a href="#">Visa Requirement</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">About</a>
+                <div class="dropdown-menu">
+                    <a href="#">Our Story</a>
+                    <a href="#">Team</a>
+                    <a href="#">Careers</a>
+                </div>
+            </div>
+        </nav>
+        <div class="sidebar-buttons">
+            <button class="login-btn">Login</button>
+            <button class="apply-btn">Apply Now</button>
+        </div>
+    </div>
+    <!-- NAVBAR END -->
+
+    <!-- HERO START -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Certified Data Science Professional</h1>
+                <p>Accelerate your career with our comprehensive data science course.</p>
+                <a href="#" class="hero-btn">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- HERO END -->
+
+
+    <!-- FAQ START -->
+    <section id="faq">
+    <div class="container">
+        <div class="faq-details">
+            <h2>Certified Data Science Professional</h2>
+            <p>The course includes four Azure certifications from Microsoft - advancing through these, one by one, will build your knowledge of core concepts of data science, and how they can be applied to the Microsoft Azure environment.</p>
+        </div>
+
+        <!-- Accordion FAQs -->
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>Course Overview</span> 
+                    <i class="fa-solid fa-angle-right accordion-icon"></i> 
+                </div>
+                <div class="accordion-content">
+                    <p>
+
+                        The Certified Data Science Professional course at Lumify Learn prepares you for a career in the fast-growing field of data science.
+                        
+                        This 100% online, interactive boot camp spans 3 to 5 months, allowing you to learn at your own pace.
+                        
+                        Guided by industry experts, you will gain comprehensive knowledge through four Azure certifications from Microsoft. These certifications will build your understanding of core data science concepts and their applications within the Microsoft Azure environment.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>What will I learn in this course?</span> 
+                    <i class="fa-solid fa-angle-right accordion-icon"></i>
+                </div>
+                <div class="accordion-content">
+                    <p>
+                        <ul>
+                            <li><b>Microsoft Azure Fundamentals:</b> Gain foundational knowledge of cloud concepts, core Azure services, security, privacy, compliance, and Azure pricing and support.</li>
+                            <li><b>Microsoft Azure Data Fundamentals:</b> Learn the basics of database concepts in a cloud environment, cloud data services, and foundational knowledge of Microsoft Azure data services.</li>
+                            <li><b>Microsoft Azure AI Fundamentals:</b> Understand fundamental AI concepts and learn about Azure services used to create AI solutions</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>Career Pathways</span> 
+                    <i class="fa-solid fa-angle-right accordion-icon"></i>
+                </div>
+                <div class="accordion-content">
+                    <p>
+                        Graduates of the Certified Data Science Professional course can pursue various roles, including: 
+                        <ul>
+                            <li><b>Business Analyst:</b> Analyse and improve business processes using data-driven insights.</li>
+                            <li><b>Data Analyst:</b> Interpret complex data to help organizations make informed decisions.</li>
+                            <li><b>Data Scientist:</b>Develop advanced analytical models to solve complex problems and drive strategic initiatives.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>Fees & Payment Option</span> 
+                    <i class="fa-solid fa-angle-right accordion-icon"></i>
+                </div>
+                <div class="accordion-content">
+                    <p>Graduates of the Certified Data Science Professional course can pursue various roles, including: </p>
+                    <p>
+                        <ul>
+                            <li><b>Course Fees:</b> $6,299.</li>
+                            <li><b>Pay upfront:</b> $5,669. 10% discount - a saving of $629.90.</li>
+                            <li><b>Pay monthly:</b>24 x $262.46 per month. Paid at the start of each month.</li>
+                        </ul>
+                    </p>
+                    <p>Talk to an Enrolment Advisor to learn more on payment options.All fees are in Australian Dollars.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- FAQ END -->
+
+
+    <!-- DISCOUNT START -->
+    <section id="discount">
+        <div class="my-cart-item-container">
+            <div class="my-cart-item">
+                <img src="./img/Dis Course.jpg" alt="Course Image" class="my-cart-item-image">
+                <div class="my-cart-item-details">
+                    <h3 class="my-cart-item-name">Data Science Fundamentals with Python and SQL Specialization</h3>
+                    <p class="my-cart-item-course">Build the Foundation for your Data Science career. Develop hands-on experience with Jupyter, Python, SQL. Perform Statistical Analysis on real data sets.</p>
+                    <div class="my-cart-item-prices">
+                        <span class="my-cart-item-original-price">$199.99</span>
+                        <span class="my-cart-item-discount-price">$149.99</span>
+                    </div>
+    
+                    <div class="discount-message">
+                        <h4>Hurray! You get a discount. Grab it before it expires.</h4>
+                    </div>
+    
+                    <div class="countdown">
+                        <div class="countdown-item">
+                            <span id="days" class="countdown-number"></span>
+                            <span class="countdown-label">Days</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="hours" class="countdown-number"></span>
+                            <span class="countdown-label">Hours</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="minutes" class="countdown-number"></span>
+                            <span class="countdown-label">Minutes</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="seconds" class="countdown-number"></span>
+                            <span class="countdown-label">Seconds</span>
+                        </div>
+                    </div>
+    
+                    <button class="my-cart-item-enroll-btn">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- DISCOUNT END -->
+
+    <!-- GALLARY START -->
+    <section id="gallery">
+        <div class="container">
+            <div class="gallery-header">
+                <h2>Our Students</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="./img/gallary1.jpg" alt="" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallary2.jpg" alt="" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallary3.jpg" alt="" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallary4.jpg" alt="" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallary5.jpg" alt="" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallary6.jpg" alt="" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallary7.jpg" alt="" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallary8.jpg" alt="" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallary9.jpg" alt="" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallary10.jpg" alt="" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallary11.jpg" alt="" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallary12.jpg" alt="" onclick="openModal(this)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <i class="fas fa-chevron-left prev" onclick="changeImage(-1)"></i>
+            <img class="modal-image" id="modalImage">
+            <i class="fas fa-chevron-right next" onclick="changeImage(1)"></i>
+        </div>
+    </div>
+    <!-- GALLARY END -->
+
+
+
+    <!-- SUCCESS START -->
+
+    <section id="success">
+        <div class="heading">
+            <h2>Our Achivements</h2>
+        </div>
+
+        <div class="container py-5">
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="counter-box">
+                        <div class="counter" data-target="20000">0</div>
+                        <p>Successful Students</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="counter-box">
+                        <div class="counter" data-target="17000">0</div>
+                        <p>Skilled Job Holders</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="counter-box">
+                        <div class="counter" data-target="85">0%</div>
+                        <p>Success Ratio</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SUCCESS END -->
+
+
+    <!-- COPYRIGHT -->'
+    <section id="copyright">
+        <div class="name">
+            <p>Copyright © 2024 <span>Soikat Dev</span> All right reserved.</p>
+        </div>
+    </section>
+
+    <!-- BACK TO TOP START -->
+     <div class="backToTop">
+        <button><i class="fa-solid fa-chevron-up"></i></button>
+     </div>
+    <!-- BACK TO TOP END -->
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
+
+<!-------------------------------------------------------- SOIKAT DEV ----------------------------------------------------------------->

@@ -1,0 +1,279 @@
+/* Responsive styles */
+@media (min-width: 320px) and (max-width: 991px){
+    .navbar img{
+        padding-left: 10px;
+    }
+    #faq {
+        padding: 20px 0;
+        background-color: #F1F2F6;
+    }
+    
+    #faq .faq-details h2 {
+        font-size: 20px;
+        padding-bottom: 10px;
+        font-weight: 800;
+    }
+    
+    #faq .faq-details p {
+        font-size: 12px;
+        padding-bottom: 20px;
+        text-align: justify;
+    }
+    .accordion-icon {
+        font-size: 15px; 
+        transition: transform 0.3s ease;
+    }
+
+    #gallary{
+        padding: 10px 0;
+    }
+    .gallery-header h2 {
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        padding-top: 10px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .prev {
+        left: -25px;
+    }
+    
+    .next {
+        right: -25px; 
+    }
+    .close {
+        position: absolute;
+        top: 165px;
+        right: 20px;
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .body-no-scroll {
+        overflow: hidden;
+    }
+
+    #success {
+        padding: 10px 0;
+        background-color: #F1F2F6;
+    }
+    
+    #success .heading h2 {
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .counter-box {
+        background-color: #2ed573;
+        padding: 10px 5px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .counter {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 5px;
+    }
+    
+    p {
+        font-size: 15px;
+        color: white;
+        margin: 0;
+    }
+
+    #copyright .name p{
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+    #copyright .name span{
+        font-size: 13px;
+    }
+}
+/* NAVBAR */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    .nav-buttons {
+        display: none;
+    }
+    .sidebar-toggle {
+        display: block;
+    }
+    .sidebar {
+        left: 0;
+    }
+    .sidebar-nav .dropdown-menu {
+        position: static;
+        width: 100%;
+    }
+}
+
+/* Navbar on Small Devices */
+@media (max-width: 767px) {
+    header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+    .hero {
+        padding-top: 70px;
+    }
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; 
+    width: 250px;
+    height: 100%;
+    background: #a4b0be;
+    color: #fff;
+    transition: left 0.3s;
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 1001;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000; 
+}
+
+/* HERO */
+@media (max-width: 767px) {
+    .hero {
+        justify-content: center; 
+        text-align: center; 
+        padding: 20px;
+    }
+
+    .hero-content {
+        width: 100%; 
+        max-width: 100%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 20px;
+    }
+
+    .hero p {
+        font-size: 10px;
+    }
+
+    .hero-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    .hero .hero-content .hero-btn i{
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .hero-btn {
+        padding: 8px 16px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Gallary */
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 12px;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 8px;
+    }
+
+    .prev, .next {
+        font-size: 24px;
+    }
+
+    .close {
+        font-size: 30px;
+    }
+}
+
+
+/* DISCOUNT */
+@media (max-width: 480px) {
+    .my-cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .my-cart-item-image {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .my-cart-item-name {
+        font-size: 1.1em;
+    }
+
+    .my-cart-item-course {
+        font-size: 0.9em;
+    }
+
+    .my-cart-item-original-price, .my-cart-item-discount-price {
+        font-size: 1.1em;
+    }
+
+    .my-cart-item-enroll-btn {
+        font-size: 0.9em;
+    }
+}
+
+/* BACK TO TOP */
+@media (max-width: 600px) {
+    .backToTop {
+        right: 10px; 
+        bottom: 20px;
+    }
+}
+
+/********************************************************** SOIKAT DEV  ***************************************************************/
